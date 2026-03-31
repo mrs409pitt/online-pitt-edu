@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RN-BSN Online Degree Completion | Pitt Online</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-fixed-dim": "#a5c8ff",
+                        "surface": "#fcf9f8",
+                        "surface-bright": "#fcf9f8",
+                        "surface-variant": "#e5e2e1",
+                        "on-error": "#ffffff",
+                        "primary": "#002265",
+                        "outline-variant": "#c4c6d4",
+                        "inverse-surface": "#313030",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#444652",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#f6f3f2",
+                        "on-primary-fixed": "#00174b",
+                        "secondary": "#7d5700",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "background": "#fcf9f8",
+                        "outline": "#747683",
+                        "on-secondary-container": "#6b4b00",
+                        "inverse-primary": "#b4c5ff",
+                        "surface-container-high": "#eae7e7",
+                        "secondary-container": "#feb71a",
+                        "surface-container": "#f0eded",
+                        "on-primary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#0d3e71",
+                        "on-secondary-fixed": "#271900",
+                        "on-primary-container": "#87a4ff",
+                        "tertiary-fixed": "#d4e3ff",
+                        "secondary-fixed-dim": "#ffba2c",
+                        "tertiary": "#00284f",
+                        "primary-container": "#003594",
+                        "on-secondary-fixed-variant": "#5f4100",
+                        "on-primary-fixed-variant": "#15409e",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#ffdeaa",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "primary-fixed": "#dbe1ff",
+                        "on-tertiary-fixed": "#001c3a",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface-tint": "#3559b7",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#1b1b1b",
+                        "on-tertiary-fixed-variant": "#1b487b",
+                        "surface-dim": "#dcd9d9",
+                        "on-tertiary-container": "#84aae4",
+                        "on-background": "#1b1b1b"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader", "serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0rem",
+                        "lg": "0rem",
+                        "xl": "0rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .checkered-pattern {
+            background-image: radial-gradient(var(--tw-colors-secondary-container) 1px, transparent 0);
+            background-size: 24px 24px;
+            opacity: 0.15;
+        }
+        .editorial-bleed {
+            margin-right: -10vw;
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background flex flex-col min-h-screen">
+<!-- TopNavBar (JSON Mapping) -->
+<nav class="bg-blue-900 dark:bg-slate-950 fixed top-0 w-full z-50">
+<div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold tracking-tight text-white Newsreader">
+                Pitt Online
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-yellow-500 font-bold border-b-2 border-yellow-500 pb-1 Newsreader tracking-tight" href="#program">Program Overview</a>
+<a class="text-white/80 hover:text-yellow-400 transition-colors duration-200 uppercase text-xs tracking-widest font-medium" href="#curriculum">Curriculum</a>
+<a class="text-white/80 hover:text-yellow-400 transition-colors duration-200 uppercase text-xs tracking-widest font-medium" href="#admissions">Admissions</a>
+</div>
+<a class="bg-secondary-container text-on-secondary-container px-6 py-2 font-bold uppercase text-xs tracking-widest hover:scale-95 duration-100 ease-in-out" href="#rfi-form">
+                Get Program Info
+            </a>
+</div>
+</nav>
+<main class="flex-grow pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[870px] flex items-center overflow-hidden bg-primary overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary via-primary-container to-primary opacity-90 z-10"></div>
+<div class="absolute right-0 top-0 w-1/2 h-full hidden lg:block z-0">
+<img class="w-full h-full object-cover grayscale opacity-40" data-alt="Modern healthcare professional in clinical setting, bright and clean composition with soft professional lighting and navy accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA98S5qhWl9dfdloEiXp_E75Gh33lbq-2pvu5RNiytGyl_-JUrGchKqJaeNpa1TzGVH4Lbtp5sNscETzX6124VIsA1ncy2NQAuUaQGiwxmrTYkZGtdRWw5yDnRu2S6X4XPkard1AERyUb1IDTuQWtGfuuXocVXJdabBPps-DbzwdjWqjqOBlFb8m-DVJDpfDQ0C7FB9k7dUEn7GUG70xTtY1-IJ_kqpLw948AbCTxofujNPYqmWsueLMj3KmCrK-c5vnIQcL8AG0o8"/>
+<div class="absolute inset-0 bg-primary/40 mix-blend-multiply"></div>
+</div>
+<div class="max-w-7xl mx-auto px-6 w-full relative z-20 grid lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 py-20">
+<span class="inline-block px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] font-bold uppercase tracking-[0.2em] mb-6">University of Pittsburgh at Bradford</span>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl text-white leading-[0.9] -tracking-[0.03em] mb-8">
+                        Earn your degree <br/><span class="italic text-secondary-fixed-dim">while you keep working.</span>
+</h1>
+<p class="text-on-primary-container text-lg md:text-xl max-w-xl mb-12 font-light leading-relaxed">
+                        Pitt-Bradford's online, asynchronous RN-BSN program is built for registered nurses. No classroom. No career interruptions.
+                    </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 border-t border-white/10 pt-10">
+<div>
+<div class="text-secondary-fixed-dim font-headline text-3xl mb-1">100%</div>
+<div class="text-white/60 text-xs uppercase tracking-widest font-medium">Online Format</div>
+</div>
+<div>
+<div class="text-secondary-fixed-dim font-headline text-3xl mb-1">2 Semesters</div>
+<div class="text-white/60 text-xs uppercase tracking-widest font-medium">To Completion</div>
+</div>
+<div>
+<div class="text-secondary-fixed-dim font-headline text-3xl mb-1">Fall / Spring</div>
+<div class="text-white/60 text-xs uppercase tracking-widest font-medium">Flexible Starts</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Value Props (The 'Why It Works' section) -->
+<section class="py-24 bg-surface relative overflow-hidden" id="program">
+<div class="checkered-pattern absolute top-0 left-0 w-64 h-64 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-20">
+<h2 class="font-headline text-4xl md:text-6xl text-primary -tracking-wider mb-6">Designed for the <br/>Frontline Professional.</h2>
+<div class="h-1 w-24 bg-secondary"></div>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="group">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block" data-icon="schedule">schedule</span>
+<h3 class="font-headline text-2xl text-primary mb-4">Total Flexibility</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Complete your coursework whenever fits your shift schedule. Our asynchronous model means no mandatory login times.</p>
+</div>
+<div class="group">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block" data-icon="bolt">bolt</span>
+<h3 class="font-headline text-2xl text-primary mb-4">Maximum Efficiency</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Receive up to 30 credits for your existing nursing license, putting you on the fast track to graduation.</p>
+</div>
+<div class="group">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block" data-icon="trending_up">trending_up</span>
+<h3 class="font-headline text-2xl text-primary mb-4">Career Growth</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Position yourself for leadership roles, specialized practice, and advanced nursing degrees with a BSN.</p>
+</div>
+<div class="group">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block" data-icon="verified">verified</span>
+<h3 class="font-headline text-2xl text-primary mb-4">Pitt Credential</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Graduate with a degree from the prestigious University of Pittsburgh system, recognized globally for excellence.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Program Snapshot -->
+<section class="bg-surface-container-low py-24 border-y border-outline-variant/20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-secondary-container/20 z-0"></div>
+<img class="relative z-10 w-full aspect-[4/5] object-cover shadow-2xl" data-alt="Academic researcher in a modern library or clean study space, focused atmosphere with soft daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJWHgz89-fDrN-aRlQ-0cd4ZyYYbUVaPuIjDbNskf02bplC-cmuIdqR3rtXTTtBnfgkgfKUdmy_MV-yRIwupa8RkEpqaA7v5T0UczFwBGvllcbi0fgpkguJl71eoKS-HFl7wIBJMzL7SEry-fjzPS1uhnNLSzVUEv9ZpyqilL6oSZcZ1g9lo_vfz8UShEVIWOHdKmK5SGmehcNx2h7r_7LBNQhYpvZy985809B7F2Rbixqj07RRD7VqdJuQPUBCPdecfRJBi9ZwtI"/>
+</div>
+<div>
+<h2 class="font-headline text-4xl text-primary mb-12 italic">Program Snapshot</h2>
+<div class="space-y-0 border-t border-outline-variant">
+<div class="flex justify-between py-6 border-b border-outline-variant">
+<span class="font-bold text-xs uppercase tracking-widest text-primary">Format</span>
+<span class="text-on-surface-variant">100% Online / Asynchronous</span>
+</div>
+<div class="flex justify-between py-6 border-b border-outline-variant">
+<span class="font-bold text-xs uppercase tracking-widest text-primary">Time to Complete</span>
+<span class="text-on-surface-variant">As few as 2 Semesters</span>
+</div>
+<div class="flex justify-between py-6 border-b border-outline-variant">
+<span class="font-bold text-xs uppercase tracking-widest text-primary">Total Credits</span>
+<span class="text-on-surface-variant">120 Credits (including transfer)</span>
+</div>
+<div class="flex justify-between py-6 border-b border-outline-variant">
+<span class="font-bold text-xs uppercase tracking-widest text-primary">Degree Awarded</span>
+<span class="text-on-surface-variant">Bachelor of Science in Nursing</span>
+</div>
+<div class="flex justify-between py-6 border-b border-outline-variant">
+<span class="font-bold text-xs uppercase tracking-widest text-primary">Application Deadlines</span>
+<span class="text-on-surface-variant">August 1 (Fall) / Dec 1 (Spring)</span>
+</div>
+</div>
+<div class="mt-12 p-8 bg-primary text-white">
+<h4 class="font-headline text-xl mb-4">Admission Requirement</h4>
+<p class="text-on-primary-container text-sm font-light">Applicants must hold an active, unencumbered RN license in the state where they practice. Professional clinical experience is highly valued.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RFI FORM -->
+<section class="py-24 bg-surface" id="rfi-form">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-0 shadow-2xl overflow-hidden">
+<div class="lg:col-span-5 bg-primary p-12 lg:p-20 text-white flex flex-col justify-center relative overflow-hidden">
+<div class="checkered-pattern absolute inset-0 opacity-5"></div>
+<div class="relative z-10">
+<h2 class="font-headline text-4xl lg:text-5xl mb-6">Ready to Take the <br/><span class="italic text-secondary-fixed-dim">Next Step?</span></h2>
+<p class="text-on-primary-container text-lg mb-8 font-light leading-relaxed">Fill out the form to receive a detailed program guide, tuition breakdown, and upcoming virtual info session dates.</p>
+<div class="space-y-6">
+<div class="flex gap-4 items-center">
+<span class="material-symbols-outlined text-secondary-fixed-dim" data-icon="mail">mail</span>
+<span class="text-sm tracking-wide">admissions@bradford.pitt.edu</span>
+</div>
+<div class="flex gap-4 items-center">
+<span class="material-symbols-outlined text-secondary-fixed-dim" data-icon="phone">phone</span>
+<span class="text-sm tracking-wide">814-362-7500</span>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 bg-surface-container-lowest p-12 lg:p-20 border-r border-b border-outline-variant/10">
+<form class="space-y-8">
+<div class="grid md:grid-cols-2 gap-8">
+<div class="relative">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">First Name</label>
+<input class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0" placeholder="Jane" type="text"/>
+</div>
+<div class="relative">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Last Name</label>
+<input class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0" placeholder="Doe" type="text"/>
+</div>
+</div>
+<div class="relative">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Email Address</label>
+<input class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0" placeholder="j.doe@healthcare.com" type="email"/>
+</div>
+<div class="relative">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Program of Interest</label>
+<select class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0 appearance-none">
+<option>RN-BSN Degree Completion (Online)</option>
+<option>Other Online Programs</option>
+</select>
+</div>
+<button class="w-full bg-secondary text-on-secondary font-bold uppercase tracking-[0.2em] text-xs py-5 hover:bg-secondary-container hover:text-on-secondary-container transition-all" type="submit">
+                            Request Program Information
+                        </button>
+</form>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-4xl mx-auto px-6">
+<h2 class="font-headline text-4xl text-primary text-center mb-16">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<details class="group bg-surface-container-lowest p-6 cursor-pointer border-l-4 border-transparent hover:border-secondary transition-all">
+<summary class="flex justify-between items-center font-headline text-xl text-primary list-none">
+                            Do I ever need to visit the campus in Bradford?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 text-on-surface-variant leading-relaxed text-sm">
+                            No. This program is 100% online and designed specifically for remote learners. All coursework, including clinical projects, can be completed in your local community.
+                        </p>
+</details>
+<details class="group bg-surface-container-lowest p-6 cursor-pointer border-l-4 border-transparent hover:border-secondary transition-all">
+<summary class="flex justify-between items-center font-headline text-xl text-primary list-none">
+                            Can I work full-time while enrolled?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 text-on-surface-variant leading-relaxed text-sm">
+                            Absolutely. The majority of our students are full-time working nurses. The asynchronous format allows you to balance your professional responsibilities with your academic goals.
+                        </p>
+</details>
+<details class="group bg-surface-container-lowest p-6 cursor-pointer border-l-4 border-transparent hover:border-secondary transition-all">
+<summary class="flex justify-between items-center font-headline text-xl text-primary list-none">
+                            What are the tuition rates?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 text-on-surface-variant leading-relaxed text-sm">
+                            Pitt-Bradford offers highly competitive tuition rates for its online programs. We also provide financial aid counseling and support for employer reimbursement programs.
+                        </p>
+</details>
+<details class="group bg-surface-container-lowest p-6 cursor-pointer border-l-4 border-transparent hover:border-secondary transition-all">
+<summary class="flex justify-between items-center font-headline text-xl text-primary list-none">
+                            How long does the program actually take?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 text-on-surface-variant leading-relaxed text-sm">
+                            While students can finish in as few as two semesters of full-time study, we also offer a part-time track for those who need more time to balance work and life.
+                        </p>
+</details>
+</div>
+</div>
+</section>
+<!-- Footer CTA -->
+<section class="bg-primary py-32 relative overflow-hidden">
+<div class="absolute inset-0 bg-primary-container opacity-20 z-0"></div>
+<div class="checkered-pattern absolute bottom-0 right-0 w-96 h-96 opacity-10"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<h2 class="font-headline text-5xl md:text-7xl text-white mb-8">Your Next Chapter <br/><span class="italic text-secondary-fixed-dim">Starts Here.</span></h2>
+<p class="text-on-primary-container text-xl mb-12 font-light">Advance your nursing career on your terms with Pitt-Bradford Online.</p>
+<a class="inline-block bg-secondary-container text-on-secondary-container px-12 py-5 font-bold uppercase tracking-[0.2em] text-xs hover:scale-105 transition-all" href="#rfi-form">
+                    Apply Now for Fall 2024
+                </a>
+</div>
+</section>
+</main>
+<!-- Footer (JSON Mapping) -->
+<footer class="bg-slate-50 dark:bg-slate-900 w-full py-12 px-6 flex flex-col items-center text-center mt-auto border-t-0">
+<div class="max-w-7xl mx-auto w-full">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left mb-16">
+<div class="text-primary dark:text-blue-400">
+<h4 class="text-xs font-medium Inter uppercase tracking-wider mb-6">About Pitt-Bradford</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">A regional campus of the University of Pittsburgh, combining the prestige of a world-class research university with a personalized learning environment.</p>
+</div>
+<div class="text-primary dark:text-blue-400">
+<h4 class="text-xs font-medium Inter uppercase tracking-wider mb-6">Online Support</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Our dedicated online student success team is here to support you from application through graduation and beyond.</p>
+</div>
+<div class="text-primary dark:text-blue-400">
+<h4 class="text-xs font-medium Inter uppercase tracking-wider mb-6">Contact Us</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">300 Campus Drive<br/>Bradford, PA 16701<br/>814-362-7500</p>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="text-xs font-medium Inter uppercase tracking-wider text-slate-600 dark:text-slate-400 opacity-80">
+                    © 2024 University of Pittsburgh at Bradford. All rights reserved. Legal Information.
+                </div>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-slate-400" data-icon="facebook">social_leaderboard</span>
+<span class="material-symbols-outlined text-slate-400" data-icon="link">link</span>
+<span class="material-symbols-outlined text-slate-400" data-icon="school">school</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
