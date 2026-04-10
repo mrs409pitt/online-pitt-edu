@@ -98,7 +98,7 @@
 <body class="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
 
 <!-- TopAppBar -->
-<header class="fixed top-0 z-50 w-full px-6 h-16 bg-[#002265] flex justify-between items-center">
+<header class="fixed top-0 z-50 w-full px-6 h-16 bg-[#003594] flex justify-between items-center">
         <div class="flex items-center gap-6">
                 <span class="material-symbols-outlined text-white md:hidden cursor-pointer" data-icon="menu">menu</span>
                 <div class="flex items-center gap-4">
@@ -395,29 +395,28 @@
 </div>
 </div>
 </section>
+        
+<!-- Lead Capture Form -->
 <!-- Lead Capture Form -->
 <section id="contact-form" class="py-24 bg-primary-container relative">
-        <div class="container mx-auto px-6 max-w-5xl">
-                <div class="bg-primary p-8 md:p-16 shadow-2xl relative overflow-hidden">
-                        <div class="absolute right-0 top-0 h-full w-32 opacity-10"></div>
-                        <div class="relative z-10">
-                                <div class="text-center mb-12">
-                                        <h3 class="text-3xl font-headline font-bold text-secondary-container mb-4">Interested in Learning More?</h3>
-                                        <p class="text-white/80">Connect with an admissions advisor and take the first step toward your degree.</p>
-                                </div>
-                                <form class="">
-                                        <div id="fa-form">
-                                                <script src="https://pittforms.tfaforms.net/publish/424990" defer></script>
-                                        </div>
-                                </form>
-                        </div>
-                </div>
+  <div class="container mx-auto px-6 max-w-5xl">
+    <div class="bg-primary p-8 md:p-16 shadow-2xl relative overflow-hidden">
+      <div class="absolute right-0 top-0 h-full w-32 opacity-10"></div>
+      <div class="relative z-10">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl font-headline font-bold text-secondary-container mb-4">Interested in Learning More?</h3>
+          <p class="text-white/80">Connect with an admissions advisor and take the first step toward your degree.</p>
         </div>
+        <div id="fa-form"></div>
+        <script src="https://pittforms.tfaforms.net/publish/424990" data-qp-target-id="fa-form" defer></script>
+      </div>
+    </div>
+  </div>
 </section>
         
 </main>
 <!-- Footer -->
-<footer class="w-full bg-[#002265] text-white">
+<footer class="w-full bg-[#003594] text-white">
 <div class="container mx-auto px-8 py-16">
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12 items-start">
 <!-- Logo and Question Form Column -->
@@ -437,24 +436,25 @@
 </div>
 <!-- Bottom Bar Divider -->
 <div class="h-1 bg-[#FFB81C] w-full"></div>
+        
 <!-- Bottom Bar -->
-<div class="bg-[#002265] py-8">
-<div class="container mx-auto px-8">
-<div class="flex flex-col md:flex-row justify-between items-center gap-6">
-<div class="flex flex-col md:flex-row items-center gap-4 text-[10px] font-bold text-white/80 uppercase tracking-widest">
-<span>4200 Fifth Ave. Pittsburgh, PA 15260</span>
-<span class="hidden md:inline">•</span>
-<span>+1 412-624-4141</span>
-<span class="hidden md:inline">•</span>
-<a class="hover:text-white" href="#">Privacy Policy</a>
-</div>
-<div class="flex gap-6">
-</div>
-</div>
-<div class="mt-8 text-center md:text-left">
-<p class="text-white/40 text-[10px] uppercase tracking-widest">© 2026 University of Pittsburgh. All Rights Reserved.</p>
-</div>
-</div>
+<div class="bg-[#003594] py-8">
+        <div class="container mx-auto px-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                        <div class="flex flex-col md:flex-row items-center gap-4 text-[10px] font-bold text-white/80 uppercase tracking-widest">
+                                <span>4200 Fifth Ave. Pittsburgh, PA 15260</span>
+                                <span class="hidden md:inline">•</span>
+                                <span>+1 412-624-4141</span>
+                                <span class="hidden md:inline">•</span>
+                                <a class="hover:text-white" href="#">Privacy Policy</a>
+                        </div>
+                        <div class="flex gap-6">
+                        </div>
+                </div>
+                <div class="mt-8 text-center md:text-left">
+                        <p class="text-white/40 text-[10px] uppercase tracking-widest">© 2026 University of Pittsburgh. All Rights Reserved.</p>
+                </div>
+        </div>
 </div>
 </footer>
 </body></html>
