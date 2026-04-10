@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link rel="icon" type="image/png" href="../public/favicon-32x32.png">
 <title>Massive Open Online Courses (MOOCs) | Pitt Online</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link rel="icon" type="image/png" href="../public/favicon-32x32.png">
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script>
     tailwind.config = {
@@ -125,7 +125,7 @@
 <header class="fixed top-0 z-50 w-full px-6 h-16 bg-[#002265] flex justify-between items-center">
 <div class="flex items-center gap-6">
 <a href="index.html" class="flex items-center gap-4">
-  <img class="h-8 w-auto" src="public/Shield_UnivPittsburgh_W.png" alt="University of Pittsburgh shield"/>
+  <img class="h-8 w-auto" src="../public/Shield_UnivPittsburgh_W.png" alt="University of Pittsburgh shield"/>
   <div class="w-px h-8 bg-white/50"></div>
   <span class="text-xl font-bold text-white" style="font-family: 'Roboto', sans-serif;">Pitt Online</span>
 </a>
@@ -136,14 +136,14 @@
 <main class="pt-16">
 
 <!-- Page Hero -->
-<section class="bg-primary py-16">
+<section class="py-16">
 <div class="container mx-auto px-6 max-w-4xl">
-<nav class="text-white/60 text-sm mb-6">
-<a href="index.html" class="hover:text-white">Home</a>
+<nav class="text-sm mb-6">
+<a href="index.html" class="hover:text-#00205B">Home</a>
 <span class="mx-2">›</span>
-<span class="text-white">Massive Open Online Courses</span>
+<span class="">Massive Open Online Courses</span>
 </nav>
-<h1 class="text-4xl md:text-5xl font-headline font-bold text-white">Massive Open Online Courses (MOOCs)</h1>
+<h1 class="text-4xl md:text-5xl font-headline font-bold">Massive Open Online Courses (MOOCs)</h1>
 </div>
 </section>
 
@@ -178,6 +178,23 @@
 </div>
 </section>
 
+<!-- Lead Capture Form -->
+<section id="contact-form" class="py-24 relative">
+  <div class="container mx-auto px-6 max-w-5xl">
+    <div class="bg-[#00205B] p-8 md:p-16 shadow-2xl relative overflow-hidden">
+      <div class="absolute right-0 top-0 h-full w-32 opacity-10"></div>
+      <div class="relative z-10">
+        <div class="text-center mb-12">
+          <h3 class="text-3xl font-headline font-bold text-secondary-container mb-4">Interested in Learning More?</h3>
+          <p class="text-white/80">Connect with an admissions advisor and take the first step toward your degree.</p>
+        </div>
+        <div id="fa-form"></div>
+        <script src="https://pittforms.tfaforms.net/publish/424990" data-qp-target-id="fa-form" defer></script>
+      </div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <!-- Footer -->
@@ -186,7 +203,7 @@
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12 items-start">
 <div class="md:col-span-1 space-y-10">
 <div class="flex items-center gap-4">
-  <img class="h-8 w-auto" src="public/Shield_UnivPittsburgh_W.png" alt="University of Pittsburgh shield"/>
+  <img class="h-8 w-auto" src="../public/Shield_UnivPittsburgh_W.png" alt="University of Pittsburgh shield"/>
   <div class="w-px h-8 bg-white/50"></div>
   <span class="text-xl font-bold text-white" style="font-family: 'Roboto', sans-serif;">Pitt Online</span>
 </div>
