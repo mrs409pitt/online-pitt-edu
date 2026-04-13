@@ -2,11 +2,20 @@
 
 <html class="scroll-smooth" lang="en"><head>
 <meta charset="utf-8"/>
+<base href="https://mrs409pitt.github.io/online-pitt-edu/">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP8M6X8S');</script>
+<!-- End Google Tag Manager -->
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>RN-BSN Online Degree Completion | Pitt Online</title>
+<link rel="icon" type="image/png" href="public/favicon-32x32.png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -94,23 +103,22 @@
     </style>
 </head>
 <body class="bg-background font-body text-on-background flex flex-col min-h-screen">
-<!-- TopNavBar (JSON Mapping) -->
-<nav class="bg-blue-900 dark:bg-slate-950 fixed top-0 w-full z-50">
-<div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
-<div class="text-xl font-bold tracking-tight text-white Newsreader">
-                Pitt Online
-            </div>
-<div class="hidden md:flex gap-8 items-center">
-<a class="text-yellow-500 font-bold border-b-2 border-yellow-500 pb-1 Newsreader tracking-tight" href="#program">Program Overview</a>
-<a class="text-white/80 hover:text-yellow-400 transition-colors duration-200 uppercase text-xs tracking-widest font-medium" href="#curriculum">Curriculum</a>
-<a class="text-white/80 hover:text-yellow-400 transition-colors duration-200 uppercase text-xs tracking-widest font-medium" href="#admissions">Admissions</a>
+        
+<!-- Header -->
+<header class="fixed top-0 z-50 w-full px-4 md:px-6 py-3 md:h-16 bg-[#003594] flex justify-between items-center">
+<div class="flex items-center gap-6">
+  <div class="flex flex-col md:flex-row md:items-center gap-1 md:gap-4">
+    <a href="https://www.pitt.edu" title="Pitt Home">
+      <img class="h-8 w-auto" src="public/Shield_UnivPittsburgh_W.png" alt="University of Pittsburgh shield"/>
+    </a>
+    <div class="w-px h-8 bg-white/50 hidden md:block"></div>
+    <a href="index.html" class="text-white no-underline" style="font-family: 'Roboto', sans-serif; font-size: 25px; font-weight: 400;">Pitt Online</a>
+  </div>
 </div>
-<a class="bg-secondary-container text-on-secondary-container px-6 py-2 font-bold uppercase text-xs tracking-widest hover:scale-95 duration-100 ease-in-out" href="#rfi-form">
-                Get Program Info
-            </a>
-</div>
-</nav>
-<main class="flex-grow pt-16">
+<a href="#request-info" class="bg-[#FFB81C] text-[#002265] px-4 md:px-6 py-2 rounded-none text-[10px] md:text-xs font-black tracking-widest active:scale-95 transition-all no-underline whitespace-nowrap">REQUEST INFO</a>
+</header>
+
+        
 <!-- Hero Section -->
 <section class="relative min-h-[870px] flex items-center overflow-hidden bg-primary overflow-hidden">
 <div class="absolute inset-0 bg-gradient-to-br from-primary via-primary-container to-primary opacity-90 z-10"></div>
@@ -216,56 +224,39 @@
 </div>
 </div>
 </section>
+
+        
 <!-- RFI FORM -->
 <section class="py-24 bg-surface" id="rfi-form">
-<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-0 shadow-2xl overflow-hidden">
-<div class="lg:col-span-5 bg-primary p-12 lg:p-20 text-white flex flex-col justify-center relative overflow-hidden">
-<div class="checkered-pattern absolute inset-0 opacity-5"></div>
-<div class="relative z-10">
-<h2 class="font-headline text-4xl lg:text-5xl mb-6">Ready to Take the <br/><span class="italic text-secondary-fixed-dim">Next Step?</span></h2>
-<p class="text-on-primary-container text-lg mb-8 font-light leading-relaxed">Fill out the form to receive a detailed program guide, tuition breakdown, and upcoming virtual info session dates.</p>
-<div class="space-y-6">
-<div class="flex gap-4 items-center">
-<span class="material-symbols-outlined text-secondary-fixed-dim" data-icon="mail">mail</span>
-<span class="text-sm tracking-wide">admissions@bradford.pitt.edu</span>
-</div>
-<div class="flex gap-4 items-center">
-<span class="material-symbols-outlined text-secondary-fixed-dim" data-icon="phone">phone</span>
-<span class="text-sm tracking-wide">814-362-7500</span>
-</div>
-</div>
-</div>
-</div>
-<div class="lg:col-span-7 bg-surface-container-lowest p-12 lg:p-20 border-r border-b border-outline-variant/10">
-<form class="space-y-8">
-<div class="grid md:grid-cols-2 gap-8">
-<div class="relative">
-<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">First Name</label>
-<input class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0" placeholder="Jane" type="text"/>
-</div>
-<div class="relative">
-<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Last Name</label>
-<input class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0" placeholder="Doe" type="text"/>
-</div>
-</div>
-<div class="relative">
-<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Email Address</label>
-<input class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0" placeholder="j.doe@healthcare.com" type="email"/>
-</div>
-<div class="relative">
-<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Program of Interest</label>
-<select class="w-full bg-surface-container-lowest border-0 border-b border-surface-dim focus:ring-0 focus:border-secondary transition-all py-2 px-0 appearance-none">
-<option>RN-BSN Degree Completion (Online)</option>
-<option>Other Online Programs</option>
-</select>
-</div>
-<button class="w-full bg-secondary text-on-secondary font-bold uppercase tracking-[0.2em] text-xs py-5 hover:bg-secondary-container hover:text-on-secondary-container transition-all" type="submit">
-                            Request Program Information
-                        </button>
-</form>
-</div>
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-0 shadow-2xl overflow-hidden">
+                <div class="lg:col-span-5 bg-primary p-12 lg:p-20 text-white flex flex-col justify-center relative overflow-hidden">
+                        <div class="checkered-pattern absolute inset-0 opacity-5"></div>
+                        <div class="relative z-10">
+                                <h2 class="font-headline text-4xl lg:text-5xl mb-6">Ready to Take the <br/><span class="italic text-secondary-fixed-dim">Next Step?                                        </span></h2>
+                                <p class="text-on-primary-container text-lg mb-8 font-light leading-relaxed">Fill out the form to receive a detailed program guide, tuition breakdown, and upcoming virtual info session dates.</p>
+                                <div class="space-y-6">
+                                <div class="flex gap-4 items-center">
+                                        <span class="material-symbols-outlined text-secondary-fixed-dim" data-icon="mail">mail</span>
+                                        <span class="text-sm tracking-wide">admissions@bradford.pitt.edu</span>
+                                </div>
+                                <div class="flex gap-4 items-center">
+                                <span class="material-symbols-outlined text-secondary-fixed-dim" data-icon="phone">phone</span>
+                                <span class="text-sm tracking-wide">814-362-7500</span>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="lg:col-span-7 bg-surface-container-lowest p-12 lg:p-20 border-r border-b border-outline-variant/10">
+                <form class="space-y-8">         
+                        <div id="fa-form"></div>
+                                <script src="https://pittforms.tfaforms.net/publish/424990" data-qp-target-id="fa-form" defer></script>
+                        </div>
+                </form>
+        </div>
 </div>
 </section>
+
+        
 <!-- FAQ Section -->
 <section class="py-24 bg-surface-container-low">
 <div class="max-w-4xl mx-auto px-6">
@@ -310,6 +301,8 @@
 </div>
 </div>
 </section>
+
+        
 <!-- Footer CTA -->
 <section class="bg-primary py-32 relative overflow-hidden">
 <div class="absolute inset-0 bg-primary-container opacity-20 z-0"></div>
@@ -323,33 +316,40 @@
 </div>
 </section>
 </main>
-<!-- Footer (JSON Mapping) -->
-<footer class="bg-slate-50 dark:bg-slate-900 w-full py-12 px-6 flex flex-col items-center text-center mt-auto border-t-0">
-<div class="max-w-7xl mx-auto w-full">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left mb-16">
-<div class="text-primary dark:text-blue-400">
-<h4 class="text-xs font-medium Inter uppercase tracking-wider mb-6">About Pitt-Bradford</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">A regional campus of the University of Pittsburgh, combining the prestige of a world-class research university with a personalized learning environment.</p>
-</div>
-<div class="text-primary dark:text-blue-400">
-<h4 class="text-xs font-medium Inter uppercase tracking-wider mb-6">Online Support</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Our dedicated online student success team is here to support you from application through graduation and beyond.</p>
-</div>
-<div class="text-primary dark:text-blue-400">
-<h4 class="text-xs font-medium Inter uppercase tracking-wider mb-6">Contact Us</h4>
-<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">300 Campus Drive<br/>Bradford, PA 16701<br/>814-362-7500</p>
+<!-- Footer -->
+<footer class="w-full bg-[#003594] text-white">
+<div class="container mx-auto px-8 py-16">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 items-start">
+<div class="md:col-span-1 space-y-10">
+<div class="flex flex-col md:flex-row md:items-center gap-1 md:gap-4">
+  <a href="https://www.pitt.edu" title="Pitt Home">
+    <img class="h-8 w-auto" src="public/Shield_UnivPittsburgh_W.png" alt="University of Pittsburgh shield"/>
+  </a>
+  <div class="w-px h-8 bg-white/50 hidden md:block"></div>
+  <a href="index.html" class="text-white no-underline" style="font-family: 'Roboto', sans-serif; font-size: 25px; font-weight: 400;">Pitt Online</a>
 </div>
 </div>
-<div class="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
-<div class="text-xs font-medium Inter uppercase tracking-wider text-slate-600 dark:text-slate-400 opacity-80">
-                    © 2024 University of Pittsburgh at Bradford. All rights reserved. Legal Information.
-                </div>
-<div class="flex gap-6">
-<span class="material-symbols-outlined text-slate-400" data-icon="facebook">social_leaderboard</span>
-<span class="material-symbols-outlined text-slate-400" data-icon="link">link</span>
-<span class="material-symbols-outlined text-slate-400" data-icon="school">school</span>
+</div>
+</div>
+<div class="h-1 bg-[#FFB81C] w-full"></div>
+<div class="bg-[#003594] py-8">
+<div class="container mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col md:flex-row items-center gap-4 text-[10px] font-bold text-white/80 uppercase tracking-widest">
+<a href="https://maps.google.com/?q=4200+Fifth+Ave+Pittsburgh+PA+15260" target="_blank" class="hover:text-white">4200 Fifth Ave. Pittsburgh, PA 15260</a>
+<span class="hidden md:inline">•</span>
+<a href="tel:+14126244141" class="hover:text-white">+1 412-624-4141</a>
+<span class="hidden md:inline">•</span>
+<a class="hover:text-white" href="https://www.pitt.edu/privacy-policy">Privacy Policy</a>
+</div>
+</div>
+<div class="mt-8 text-center md:text-left">
+<p class="text-white/40 text-[10px] uppercase tracking-widest">© 2026 University of Pittsburgh. All Rights Reserved.</p>
 </div>
 </div>
 </div>
 </footer>
+        
+
+        
 </body></html>
